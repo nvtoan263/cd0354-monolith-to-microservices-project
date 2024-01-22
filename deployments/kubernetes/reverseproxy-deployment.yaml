@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-        - image: brandonodiwuor/reverseproxy
+        - image: toannguyenofficial/reverseproxy
           name: reverseproxy
           ports:
             - containerPort: 8080
